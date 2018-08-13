@@ -1,0 +1,15 @@
+ul {
+    list-style: none;
+    padding: 10px;
+}
+li {
+    padding: 5px 0px 5px 5px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;    
+}
+.listitem:hover{
+    background: lightblue;
+}
