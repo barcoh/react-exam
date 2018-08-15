@@ -47,7 +47,7 @@ class ContactsList extends React.Component {
                                 )
                             } else if (contact.type === 'Contact') {
                                 return (
-                                    <Contact visible={true} name={contact.name} id={contact.id} key={contact.id} />
+                                    <Contact name={contact.name} id={contact.id} key={contact.id} />
                                 )
                             }
                             return (<h1>NO DATA</h1>);
