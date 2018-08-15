@@ -19,8 +19,8 @@ class ContactGroup extends React.Component {
     }
 
     render() {
-        var contacts = Object.keys(this.state.contacts).map(i => this.state.contacts[i])
-        var visibility = this.state.visible;
+        let contacts = Object.keys(this.state.contacts).map(i => this.state.contacts[i])
+        let visibility = this.state.visible;
         let subgroups;
         if (visibility) {
             subgroups = <ul>
